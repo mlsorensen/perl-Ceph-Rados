@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Ceph-RADOS.t
+lib/Ceph/RADOS.pm
+META.yml                                 Module meta-data (added by MakeMaker)
