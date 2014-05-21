@@ -4,7 +4,8 @@ perl-Ceph-Rados
 Perl Binding for Ceph Rados C library. This is largely proof of concept code (from years ago) that could use some tests and more bindings. I more or less just looked at bindings from other languages and translated the code into C, binding with Perl's Inline::C. I recently came across some threads where people seem to actually be using it, so I decided to dump it into github where people can send patches and collaboration can occur.
 
 Example:
-`
+
+```
 mlsorensen@mlsorensen-pc:~/Downloads/Ceph-RADOS-0.01$ perl Makefile.PL
 Writing Makefile for Ceph::RADOS
 
@@ -46,4 +47,4 @@ pool id: 21
 pool auid: 0
 new pool auid: 232323
 delete pool this_test_pool success
-`
+```
