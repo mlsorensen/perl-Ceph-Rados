@@ -6,7 +6,7 @@ my $c = new Ceph::RADOS;
 my $testpool = 'this_test_pool';
 
 # test connect
-if($c->connect({'mon_host' => '10.20.192.110'})) {
+if($c->connect({'mon_host' => $ARGV[0]})) {
   print "connected\n";
 
   my $stat = $c->cluster_stat;
